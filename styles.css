@@ -431,6 +431,7 @@ button {
 
 .hero__buttons {
     display: flex;
+    gap: var(--spacing-md);
     /* ERROR 8: Los botones del hero están pegados sin espacio entre ellos
        PISTA: Falta la propiedad que define el espacio entre elementos flex */
     flex-wrap: wrap;
@@ -451,6 +452,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: blob-animation 8s ease-in-out infinite;
     /* ERROR 9: El blob en el hero no tiene la animación de forma dinámica
        PISTA: Falta la propiedad animation que referencia a blob-animation */
     position: relative;
