@@ -555,6 +555,7 @@ button {
     display: grid;
     /* ERROR 10: Las cards de intereses no se muestran en 3 columnas, están apiladas
        PISTA: Falta la propiedad de CSS Grid que define las columnas */
+     grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-xl);
     margin-bottom: var(--spacing-3xl);
 }
@@ -562,6 +563,7 @@ button {
 .interest__card {
     background: var(--color-bg-card);
     border: 1px solid var(--color-bg-tertiary);
+    border-radius: var(--border-radius-xl)
     /* ERROR 11: Las cards de intereses tienen esquinas puntiagudas en vez de redondeadas
        PISTA: Falta la propiedad border-radius */
     padding: var(--spacing-xl);
