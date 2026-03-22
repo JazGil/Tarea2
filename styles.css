@@ -102,7 +102,7 @@
     /* Z-index */
     /* ERROR 2: El header queda detrás del contenido al hacer scroll
        PISTA: El valor del z-index es muy bajo para un elemento fijo */
-    --z-fixed: 100;
+    --z-fixed: 1000;
     --z-modal: 1000;
     
     /* Header */
@@ -563,7 +563,7 @@ button {
 .interest__card {
     background: var(--color-bg-card);
     border: 1px solid var(--color-bg-tertiary);
-    border-radius: var(--border-radius-xl)
+    border-radius: var(--border-radius-xl);
     /* ERROR 11: Las cards de intereses tienen esquinas puntiagudas en vez de redondeadas
        PISTA: Falta la propiedad border-radius */
     padding: var(--spacing-xl);
