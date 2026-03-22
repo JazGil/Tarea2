@@ -1023,6 +1023,7 @@ button {
 .contact__card {
     /* ERROR 18: La card de contacto no tiene el fondo degradado
        PISTA: Falta la propiedad background con el gradiente primario */
+     background: var(--gradient-primary);
     border-radius: var(--border-radius-xl);
     padding: var(--spacing-2xl);
     text-align: center;
@@ -1084,6 +1085,7 @@ button {
 .footer__social {
     /* ERROR 16: Los iconos de redes sociales del footer están apilados verticalmente
        PISTA: Falta la propiedad display que permite alinear elementos en fila */
+    display: flex;
     gap: var(--spacing-md);
 }
 
@@ -1091,6 +1093,7 @@ button {
     width: 45px;
     height: 45px;
     background: var(--color-bg-tertiary);
+    border-radius: 50%;
     /* ERROR 17: Los iconos de redes sociales son cuadrados en vez de círculos
        PISTA: Falta una propiedad de borde para hacer elementos circulares */
     display: flex;
