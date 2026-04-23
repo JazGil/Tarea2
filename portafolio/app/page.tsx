@@ -1,12 +1,17 @@
 import Image from "next/image";
 import Header from "./Componentes/Header/Header";
 import Hero from "./Componentes/Hero/Hero";
+import Interests from "./Componentes/Interests/Interests";
+import Subjects from "./Componentes/Subjects/Subjects";
 
 export default function Home() {
   return (
     <> 
       <Header />
       <Hero />
+      <Interests />
+      <Subjects />
+
     </>
   );
 }
