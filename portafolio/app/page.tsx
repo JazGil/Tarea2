@@ -6,6 +6,8 @@ import Subjects from "./Componentes/Subjects/Subjects";
 import CV from "./Componentes/CV/CV";
 import Projects from "./Componentes/Projects/Projects";
 import Contact from "./Componentes/Contact/Contact";
+import Footer from "./Componentes/Footer/Footer";
+import Scroll from "./Componentes/Scroll/Scroll";
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <CV />
       <Projects />
       <Contact />
+      <Footer />
+      <Scroll />
 
     </>
   );
